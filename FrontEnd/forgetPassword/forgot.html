@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Yinka Enoch Adedokun">
+    <meta name="description" content="Simple Forgot Password Page Using HTML and CSS">
+    <meta name="keywords" content="forgot password page, basic html and css">
+
+    <link rel="stylesheet" href="../css/login.css">
+
+    <title>Forgot Password </title>
+</head>
+
+<body>
+    <div class="outer-box">
+        <div class="inner-box">
+            <header class="login-header">
+                <h1>Forgot Password</h1>
+
+            </header>
+            <main class="login-body">
+                <form action="">
+                    <p><label for="username">Enter Your Email</label></p>
+                    <p><input type="email" name="useremail" id="useremail"></p>
+
+                    <p><button id="reset-password-button" class="loginuserbutton">Reset Password</button></p>
+                </form>
+            </main>
+
+
+            <footer class="login-footer">
+
+                <p>New User: <a href="../signuppage/index.html">SignUp</a> </p>
+            </footer>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.2.2/axios.min.js"
+        integrity="sha512-QTnb9BQkG4fBYIt9JGvYmxPpd6TBeKp6lsUrtiVQsrJ9sb33Bn9s0wMQO9qVBFbPX3xHRAsBHvXlcsrnJjExjg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="forgotpass.js"></script>
+</body>
+
+</html>
